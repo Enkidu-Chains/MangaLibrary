@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\MangaLibrary.Common.Application\MangaLibrary.Common.Application.csproj" />
+    <ProjectReference Include="..\MangaLibrary.Shopping.Domain\MangaLibrary.Shopping.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
